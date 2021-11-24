@@ -48,7 +48,7 @@
 }
 
 :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-	opacity: .35 !important;
+	opacity: .15 !important;
 	height: 138px;
 }
 
