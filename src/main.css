@@ -40,15 +40,15 @@
 /* Shrink server banners to header instead of disappearing. */
 [class*="animatedContainer-"] {
 	opacity: 0 !important;
-	transition: opacity .1s;
+	transition: opacity 0s;
 }
 
 [class*="animatedContainer-"] > [class*="bannerImage-"] {
-	transition: margin .5s;
+	transition: margin 0s;
 }
 
 :not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
-	opacity: .5 !important;
+	opacity: 0 !important;
 	height: 138px;
 }
 
